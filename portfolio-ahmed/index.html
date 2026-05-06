@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ahmed Khaled - Backend-Focused Full Stack Engineer portfolio showcasing APIs, scalable systems, and full stack projects."
+    />
+    <title>Ahmed Khaled | Backend-Focused Full Stack Engineer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Loading screen -->
+    <div class="loader" aria-label="Loading portfolio">
+      <div class="loader-ring"></div>
+      <p>Loading Ahmed's portfolio</p>
+    </div>
+
+    <canvas class="particle-canvas" aria-hidden="true"></canvas>
+
+    <!-- Sticky navigation -->
+    <header class="site-header">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="Ahmed Khaled home">
+          <span>AK</span>
+          <strong>Ahmed Khaled</strong>
+        </a>
+
+        <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero section -->
+      <section id="home" class="hero section">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-content reveal">
+            <p class="eyebrow">Available for freelance backend work</p>
+            <h1>Ahmed Khaled</h1>
+            <h2><span class="typing-text"></span><span class="cursor">|</span></h2>
+            <p class="hero-copy">
+              Backend-focused full stack engineer building RESTful APIs,
+              authentication flows, scalable systems, and database-driven
+              products with Node.js, Django, PostgreSQL, React, and Next.js.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn btn-secondary" href="#contact">Contact Me</a>
+            </div>
+            <div class="social-links" aria-label="Social links">
+              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M6.94 8.98H3.75V20h3.19V8.98ZM7.2 5.57a1.86 1.86 0 1 0-3.72 0 1.86 1.86 0 0 0 3.72 0ZM20.5 13.67c0-2.96-1.58-4.34-3.69-4.34a3.18 3.18 0 0 0-2.88 1.58h-.04V8.98h-3.05V20h3.18v-5.45c0-1.44.27-2.83 2.05-2.83 1.76 0 1.79 1.64 1.79 2.93V20h3.18v-6.33h-.54Z" />
+                </svg>
+              </a>
+              <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2.25A9.75 9.75 0 0 0 8.92 21.25c.49.09.67-.21.67-.48v-1.7c-2.73.6-3.31-1.16-3.31-1.16-.45-1.13-1.09-1.43-1.09-1.43-.89-.61.07-.6.07-.6.98.07 1.5 1.01 1.5 1.01.88 1.5 2.3 1.07 2.86.82.09-.64.34-1.07.62-1.31-2.18-.25-4.47-1.09-4.47-4.86 0-1.07.38-1.95 1.01-2.64-.1-.25-.44-1.25.1-2.6 0 0 .83-.27 2.69 1a9.31 9.31 0 0 1 4.9 0c1.86-1.27 2.68-1 2.68-1 .54 1.35.2 2.35.1 2.6.63.69 1.01 1.57 1.01 2.64 0 3.78-2.3 4.61-4.49 4.85.35.31.67.91.67 1.83v2.55c0 .27.18.58.68.48A9.75 9.75 0 0 0 12 2.25Z" />
+                </svg>
+              </a>
+              <a href="mailto:ahmed.khaled@example.com" aria-label="Email">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4.5 5.25h15A2.25 2.25 0 0 1 21.75 7.5v9a2.25 2.25 0 0 1-2.25 2.25h-15A2.25 2.25 0 0 1 2.25 16.5v-9A2.25 2.25 0 0 1 4.5 5.25Zm0 1.8v.27l7.5 4.61 7.5-4.61v-.27h-15Zm15 9.9a.45.45 0 0 0 .45-.45V9.43l-7.48 4.59a.9.9 0 0 1-.94 0L4.05 9.43v7.07c0 .25.2.45.45.45h15Z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <img
+              src="assets/hero-architecture.png"
+              alt="Abstract backend architecture with glass panels, API nodes, and database systems"
+            />
+            <div class="metric-card metric-one">
+              <strong>REST APIs</strong>
+              <span>Secure, documented, scalable</span>
+            </div>
+            <div class="metric-card metric-two">
+              <strong>Data Systems</strong>
+              <span>PostgreSQL, MongoDB, MySQL</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section id="about" class="section about">
+        <div class="container section-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">About</p>
+            <h2>Engineer with a backend-first mindset</h2>
+          </div>
+          <div class="about-panel glass reveal">
+            <p>
+              Ahmed is a backend-focused full stack engineer experienced in
+              building scalable APIs, authentication systems, and
+              database-driven applications using Node.js, Django, PostgreSQL,
+              React, and Next.js.
+            </p>
+            <p>
+              He enjoys translating business requirements into reliable
+              server-side architecture, clean data models, and responsive user
+              experiences that help teams ship faster with confidence.
+            </p>
+            <div class="about-stats">
+              <div><strong>3+</strong><span>Production-style projects</span></div>
+              <div><strong>5</strong><span>Database technologies</span></div>
+              <div><strong>2025</strong><span>Freelance start</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills section -->
+      <section id="skills" class="section skills">
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <p class="eyebrow">Skills</p>
+            <h2>Core technologies Ahmed uses to build reliable products</h2>
+          </div>
+          <div class="skills-grid" aria-label="Technical skills"></div>
+        </div>
+      </section>
+
+      <!-- Experience timeline -->
+      <section id="experience" class="section experience">
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <p class="eyebrow">Experience</p>
+            <h2>Practical work across engineering, security, and web delivery</h2>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item reveal" tabindex="0">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card glass">
+                <span>2025-Present</span>
+                <h3>Freelance Full Stack Engineer</h3>
+                <p>
+                  Builds custom dashboards, API-driven applications, and
+                  database-backed systems for clients with a focus on
+                  maintainability, authentication, and deployment readiness.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-item reveal" tabindex="0">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card glass">
+                <span>Cisco Networking Academy</span>
+                <h3>CyberOps Associate Intern</h3>
+                <p>
+                  Strengthened security foundations across network monitoring,
+                  threat analysis, and operational security practices that
+                  support safer backend systems.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-item reveal" tabindex="0">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card glass">
+                <span>NEXT Academy</span>
+                <h3>Web Development Intern</h3>
+                <p>
+                  Developed responsive web interfaces and full stack workflows,
+                  connecting frontend features with structured server-side logic.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects section -->
+      <section id="projects" class="section projects">
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <p class="eyebrow">Projects</p>
+            <h2>Selected systems for business workflows and digital products</h2>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card reveal">
+              <div class="project-icon">CMS</div>
+              <h3>Admin Dashboard & CMS</h3>
+              <p class="stack">Node.js - Express - PostgreSQL - React</p>
+              <p>
+                A role-based dashboard for managing content, users, analytics,
+                and CRUD workflows through secure REST APIs.
+              </p>
+              <div class="project-actions">
+                <a href="#" aria-label="Open Admin Dashboard demo">Demo</a>
+                <a href="#" aria-label="Open Admin Dashboard GitHub">GitHub</a>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-icon">CRM</div>
+              <h3>Car Showroom Management System</h3>
+              <p class="stack">Django - PostgreSQL - JavaScript - Bootstrap</p>
+              <p>
+                Inventory, sales, customer, and vehicle management tools for a
+                showroom team that needs fast search and clean records.
+              </p>
+              <div class="project-actions">
+                <a href="#" aria-label="Open Car Showroom demo">Demo</a>
+                <a href="#" aria-label="Open Car Showroom GitHub">GitHub</a>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-icon">Shop</div>
+              <h3>E-commerce Platform</h3>
+              <p class="stack">Next.js - Node.js - MongoDB - JWT</p>
+              <p>
+                A product catalog, cart, checkout flow, and admin controls with
+                API authentication and database-backed order management.
+              </p>
+              <div class="project-actions">
+                <a href="#" aria-label="Open E-commerce demo">Demo</a>
+                <a href="#" aria-label="Open E-commerce GitHub">GitHub</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education section -->
+      <section id="education" class="section education">
+        <div class="container section-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Education</p>
+            <h2>Academic foundation in computer engineering</h2>
+          </div>
+          <article class="education-card glass reveal">
+            <span>2021-Present - Cairo, Egypt</span>
+            <h3>Ain Shams University - Faculty of Engineering</h3>
+            <p>Bachelor of Engineering in Computer Engineering</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section id="contact" class="section contact">
+        <div class="container contact-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Contact</p>
+            <h2>Let's build a reliable backend for your next product</h2>
+            <p>
+              Reach out for freelance projects, backend architecture, API
+              development, or full stack product work.
+            </p>
+            <div class="contact-links">
+              <a href="mailto:ahmed.khaled@example.com">ahmed.khaled@example.com</a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+          <form class="contact-form glass reveal">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Project details
+              <textarea name="message" rows="5" placeholder="Tell Ahmed what you want to build" required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <button class="back-to-top" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 5.25 4.97 12.28l1.28 1.27 4.85-4.84v10.04h1.8V8.71l4.85 4.84 1.28-1.27L12 5.25Z" />
+      </svg>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
